@@ -22,6 +22,7 @@ stages{
 		steps{
 		sh "mvn clean package"
 }
+/*
 }
 	stage('ExecuteSonarQubeReport'){
 		steps{
@@ -40,6 +41,7 @@ stages{
 }
 }
 }
+*/
 }//stages closing
 post{
 	success{
