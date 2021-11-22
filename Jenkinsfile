@@ -11,6 +11,9 @@ pollSCM('* * * * *')
 //Github webhook
 //githubPush()
 }
+options{
+	timestamps()		
+	}
 stages{
 	stage('CheckoutCode'){
 		steps{
