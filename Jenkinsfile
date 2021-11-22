@@ -52,10 +52,7 @@ post{
 	Nirvanatechnologies''', subject: 'Build Over!...', to: 
 	'mylarapuanitha@gmail.com,jagan2220@gmail.com'
 	}
-	failure{
-	}
-	always{
-	}
+	
 }
 
 }//pipeline closing
